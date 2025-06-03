@@ -50,7 +50,7 @@
                              <span class="flaticon-like"></span>
                          </div>
                          <div class="cat-cap">
-                             <h5><a href="{{ url('services') }}">Salaried Loan</a></h5>
+                             <h5><a href="{{ url('services') }}">Working Capital (Overdraft/Case credit)</a></h5>
                              <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore</p>
                          </div>
                      </div>

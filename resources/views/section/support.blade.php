@@ -14,11 +14,11 @@
                      <div class="right-caption">
                          <!-- Section Tittle -->
                          <div class="section-tittle">
-                             <span>Expert Impetus Team</span>
-                             <h2>Impetus Management Team</h2>
+                             <span>Expert NS Impetus  Team</span>
+                             <h2>NS Impetus  Management Team</h2>
                          </div>
                          <div class="support-caption">
-                             <p>Khushbu Sheth, Nishant Prajapati, Rushin Shah, Sagar Shah, Birju Patel and Palak Patel has
+                             <p>Shivam Dwivedi, Nitesha Pandey and Nikita Dwivedi has
                                  diverse educational backgrounds and extensive experience in the field.
                              </p>
                              <div class="select-suport-items">

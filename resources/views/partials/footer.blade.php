@@ -13,7 +13,7 @@
                                                 alt="" style="width: 105px; height:28px"></a>
                                     </div>
                                     <div class="footer-pera">
-                                        <p>Impetus Services, With its vision for more than 20 years and counting, the company has achieved significant milestones. Impetus aims to maintain its growth trajectory.</p>
+                                        <p>NS Impetus  Services, With its vision for more than 20 years and counting, the company has achieved significant milestones. NS Impetus  aims to maintain its growth trajectory.</p>
                                     </div>
                                 </div>
                             </div>

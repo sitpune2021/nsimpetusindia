@@ -9,14 +9,14 @@
                              <span>About Our Company</span>
                              <h2>Empowering Financial Prosperity</h2>
                          </div>
-                         <p>Impetus is a renowned Direct Sales Agent (DSA) based in India, operating under Impetus Adcon Pvt
-                             Ltd & Impetus Corporate Pvt Ltd. The company has headquartered in Ahmedabad and has established
-                             itself as a trustworthy player in the industry. Impetus has expanded its operations throughout
-                             PAN Gujarat, including Mumbai, Pune, and Indore, creating a robust presence in the regionp>
-                         <p>Since its establishment in 2000, Impetus has maintained its reputation for delivering
+                         <p>NS Impetus  is a renowned Direct Sales Agent (DSA) based in India, operating under NS Impetus  Adcon Pvt
+                             Ltd & NS Impetus  Corporate Pvt Ltd. The company has headquartered in Ahmedabad and has established
+                             itself as a trustworthy player in the industry. NS Impetus  has expanded its operations throughout
+                             Pan Maharashtra , Madhya Pradesh , Uttar Pradesh , Delhi , Haryana, Bengaluru , Kolkata , Tamil nadu,
+                             creating a robust presence in the regionp>
+                         <p>Since its establishment in 2000, NS Impetus  has maintained its reputation for delivering
                              high-quality services, making it a reliable and trustworthy DSA. The management team,
-                             consisting of Khushbu Sheth, Nishant Prajapati, Rushin Shah, Sagar Shah, Birju Patel and Palak
-                             Patel has diverse educational backgrounds and extensive experience in the field.</p>
+                             consisting of Shivam Dwivedi, Nitesha Pandey and Nikita Dwivedi has diverse educational backgrounds and extensive experience in the field.</p>
                              <a href="apply.html" class="btn">Apply for Loan</a>
                      </div>
                  </div>
