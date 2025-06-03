@@ -13,7 +13,7 @@
                              Ltd & NS Impetus  Corporate Pvt Ltd. The company has headquartered in Ahmedabad and has established
                              itself as a trustworthy player in the industry. NS Impetus  has expanded its operations throughout
                              Pan Maharashtra , Madhya Pradesh , Uttar Pradesh , Delhi , Haryana, Bengaluru , Kolkata , Tamil nadu,
-                             creating a robust presence in the regionp>
+                             creating a robust presence in the region</p>
                          <p>Since its establishment in 2000, NS Impetus  has maintained its reputation for delivering
                              high-quality services, making it a reliable and trustworthy DSA. The management team,
                              consisting of Shivam Dwivedi, Nitesha Pandey and Nikita Dwivedi has diverse educational backgrounds and extensive experience in the field.</p>
