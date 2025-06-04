@@ -9,10 +9,10 @@
                              <span>About Our Company</span>
                              <h2>Empowering Financial Prosperity</h2>
                          </div>
-                         <p>NS Impetus  is a renowned Direct Sales Agent (DSA) based in India, operating under NS Impetus  Adcon Pvt
-                             Ltd & NS Impetus  Corporate Pvt Ltd. The company has headquartered in Ahmedabad and has established
+                         <p>NS Impetus  is a renowned Direct Sales Agent (DSA) based in India, operating under Impetus  Adcon Pvt
+                             Ltd & Impetus  Corporate Pvt Ltd. The company has headquartered in Ahmedabad and has established
                              itself as a trustworthy player in the industry. NS Impetus  has expanded its operations throughout
-                             Pan Maharashtra , Madhya Pradesh , Uttar Pradesh , Delhi , Haryana, Bengaluru , Kolkata , Tamil nadu,
+                             Pan Maharashtra, Gujrat, Madhya Pradesh , Uttar Pradesh , Delhi , Haryana, Bengaluru , Kolkata , Tamil nadu,
                              creating a robust presence in the region</p>
                          <p>Since its establishment in 2000, NS Impetus  has maintained its reputation for delivering
                              high-quality services, making it a reliable and trustworthy DSA. The management team,

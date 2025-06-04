@@ -1,5 +1,5 @@
      <!-- financial products and services Ara Start -->
-     <div class="home-blog-area section-padding30 pt-0">
+     <div class="home-blog-area section-padding30  {{ $pd ? '' : 'pt-0' }}">
          <div class="container">
              <div class="row justify-content-center">
                  <div class="col-lg-7 col-md-10">
@@ -18,7 +18,7 @@
                              <img src="assets/img/gallery/blog1.jpg" alt="" style="height: 343px;">
                          </div>
                          <div class="blog-captions">
-                             <h2><a href="blog_details.html">Financial Stabilita</h2>
+                             <h2><a href="blog_details.html">Financial Stability</h2>
                              <p>Promoting financial stability by taking prudent steps.</p>
                          </div>
                      </div>

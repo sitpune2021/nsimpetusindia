@@ -29,6 +29,7 @@
 /*-------------Color include--------------*/
 /*-- Background color---*/
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Rufina:400,700&amp;display=swap");
+
 /* line 56, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_color.scss */
 .white-bg {
   background: #ffffff;
@@ -313,7 +314,11 @@ button {
 }
 
 /* line 88, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0;
 }
 
@@ -435,6 +440,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 181, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .mb-90 {
     margin-bottom: 30px;
@@ -442,6 +448,7 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 181, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .mb-90 {
     margin-bottom: 45px;
@@ -594,7 +601,8 @@ hr {
 }
 
 /* line 328, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   outline: 0;
   box-shadow: none;
 }
@@ -698,13 +706,14 @@ hr {
 
 /* button style */
 /* line 429, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-.breadcrumb > .active {
+.breadcrumb>.active {
   color: #888;
 }
 
 /* scrollUp */
 /* line 433, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-#scrollUp, #back-top {
+#scrollUp,
+#back-top {
   background: #3589f1;
   height: 50px;
   width: 50px;
@@ -721,14 +730,17 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 433, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-  #scrollUp, #back-top {
+  #scrollUp,
+  #back-top {
     right: 16px;
   }
 }
 
 /* line 450, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-#scrollUp a i, #back-top a i {
+#scrollUp a i,
+#back-top a i {
   display: block;
   line-height: 50px;
 }
@@ -2397,10 +2409,12 @@ hr {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
+
   50% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
+
   100% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
@@ -2438,6 +2452,7 @@ hr {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2448,6 +2463,7 @@ hr {
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
   }
@@ -2538,6 +2554,7 @@ hr {
     -o-transition: .6s;
     transition: .6s;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2555,6 +2572,7 @@ hr {
     -o-transition: .6s;
     transition: .6s;
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2572,6 +2590,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 200px;
@@ -2580,6 +2599,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 200px;
@@ -2588,6 +2608,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 100px;
@@ -2596,6 +2617,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 70px;
@@ -2604,6 +2626,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding2 {
     padding-top: 70px;
@@ -2618,6 +2641,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 739, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 200px;
@@ -2626,6 +2650,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 739, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 200px;
@@ -2634,6 +2659,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 739, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 100px;
@@ -2642,6 +2668,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 739, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 70px;
@@ -2650,6 +2677,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 739, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding3 {
     padding-top: 70px;
@@ -2664,6 +2692,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 763, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 190px;
@@ -2672,6 +2701,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 763, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 70px;
@@ -2680,6 +2710,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 763, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 60px;
@@ -2688,6 +2719,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 763, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .testimonial-padding {
     padding-top: 60px;
@@ -2702,6 +2734,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 784, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 195px;
@@ -2710,6 +2743,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 784, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 150px;
@@ -2718,6 +2752,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 784, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 100px;
@@ -2726,6 +2761,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 784, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 65px;
@@ -2734,6 +2770,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 784, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding30 {
     padding-top: 65px;
@@ -2748,6 +2785,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 808, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding03 {
     padding-top: 200px;
@@ -2756,6 +2794,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 808, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding03 {
     padding-top: 100px;
@@ -2764,6 +2803,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 808, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding03 {
     padding-top: 100px;
@@ -2772,6 +2812,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 808, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding03 {
     padding-top: 100px;
@@ -2780,6 +2821,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 808, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding03 {
     padding-top: 70px;
@@ -2794,6 +2836,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 834, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 170px;
@@ -2802,6 +2845,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 834, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 170px;
@@ -2810,6 +2854,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 834, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 100px;
@@ -2818,6 +2863,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 834, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 80px;
@@ -2826,6 +2872,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 834, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .footer-padding {
     padding-top: 80px;
@@ -2834,6 +2881,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 861, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-tittle {
     margin-bottom: 50px;
@@ -2841,6 +2889,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 861, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-tittle {
     margin-bottom: 50px;
@@ -2866,6 +2915,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 875, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 27px;
@@ -2873,6 +2923,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 875, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 27px;
@@ -2961,6 +3012,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 0px 80px;
@@ -2968,6 +3020,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 0px 15px;
@@ -2975,6 +3028,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 22px 50px;
@@ -2982,6 +3036,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 22px 20px;
@@ -2989,6 +3044,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 22px 20px;
@@ -2996,6 +3052,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 25, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu {
     margin-right: 30px;
@@ -3027,6 +3084,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 35, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu ul li a {
     padding: 39px 15px;
@@ -3047,7 +3105,7 @@ hr {
 }
 
 /* line 61, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul li:hover > a {
+.main-header .main-menu ul li:hover>a {
   color: #3589f1;
 }
 
@@ -3070,13 +3128,13 @@ hr {
 }
 
 /* line 78, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li {
+.main-header .main-menu ul ul.submenu>li {
   margin-left: 7px;
   display: block;
 }
 
 /* line 81, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li > a {
+.main-header .main-menu ul ul.submenu>li>a {
   padding: 6px 10px !important;
   font-size: 16px;
   text-transform: capitalize;
@@ -3084,13 +3142,13 @@ hr {
 }
 
 /* line 86, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li > a:hover {
+.main-header .main-menu ul ul.submenu>li>a:hover {
   color: #3589f1;
   background: none;
 }
 
 /* line 90, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li > a::before {
+.main-header .main-menu ul ul.submenu>li>a::before {
   position: absolute;
   content: "";
   left: -5px;
@@ -3102,27 +3160,27 @@ hr {
 }
 
 /* line 112, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-menu ul li.active > a::before {
+.main-menu ul li.active>a::before {
   width: 100%;
 }
 
 /* line 115, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-menu ul li:hover > a::before {
+.main-menu ul li:hover>a::before {
   width: 100%;
 }
 
 /* line 118, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li > a:hover {
+.main-header .main-menu ul ul.submenu>li>a:hover {
   padding-left: 15px !important;
 }
 
 /* line 121, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header .main-menu ul ul.submenu > li > a:hover::before {
+.main-header .main-menu ul ul.submenu>li>a:hover::before {
   width: 10px;
 }
 
 /* line 126, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.main-header ul > li:hover > ul.submenu {
+.main-header ul>li:hover>ul.submenu {
   visibility: visible;
   opacity: 1;
   top: 100%;
@@ -3134,7 +3192,7 @@ hr {
 }
 
 /* line 135, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_headerMenu.scss */
-.header-sticky.sticky-bar .main-menu ul > li > a {
+.header-sticky.sticky-bar .main-menu ul>li>a {
   padding: 27px 13px;
   margin: 0 10px;
 }
@@ -3203,6 +3261,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 12, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__img {
     display: none;
@@ -3210,6 +3269,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 12, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__img {
     display: none;
@@ -3229,6 +3289,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1360px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     padding-left: 3%;
@@ -3236,6 +3297,7 @@ hr {
 }
 
 @media only screen and (min-width: 1361px) and (max-width: 1500px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     padding-left: 7%;
@@ -3243,6 +3305,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1360px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     padding-left: 3%;
@@ -3250,6 +3313,7 @@ hr {
 }
 
 @media only screen and (min-width: 1501px) and (max-width: 1600px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     padding-left: 10%;
@@ -3257,6 +3321,7 @@ hr {
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     padding-left: 12%;
@@ -3264,6 +3329,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     padding-left: 3%;
@@ -3271,6 +3337,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     padding-left: 3%;
@@ -3279,6 +3346,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     width: 65%;
@@ -3289,6 +3357,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
     width: 100%;
@@ -3309,6 +3378,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1360px) {
+
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
     font-size: 56px;
@@ -3316,6 +3386,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
     font-size: 45px;
@@ -3323,6 +3394,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
     font-size: 30px;
@@ -3331,6 +3403,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
     font-size: 33px;
@@ -3340,6 +3413,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
     font-size: 25px;
@@ -3358,6 +3432,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1360px) {
+
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 35px;
@@ -3365,6 +3440,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 35px;
@@ -3372,6 +3448,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 21px;
@@ -3380,6 +3457,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     font-size: 24px;
@@ -3387,6 +3465,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 100px;
@@ -3396,6 +3475,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 10px;
@@ -3414,6 +3494,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 {
     min-height: 400px;
@@ -3421,6 +3502,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 {
     min-height: 360px;
@@ -3428,6 +3510,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 {
     min-height: 360px;
@@ -3443,6 +3526,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 146, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 .hero-cap h2 {
     font-size: 45px;
@@ -3450,6 +3534,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 146, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 .hero-cap h2 {
     font-size: 40px;
@@ -3502,6 +3587,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 192, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow {
     line-height: 40px;
@@ -3513,6 +3599,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 192, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow {
     line-height: 40px;
@@ -3524,6 +3611,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 192, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow {
     line-height: 40px;
@@ -3541,6 +3629,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 227, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow i {
     line-height: 40px;
@@ -3548,6 +3637,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 227, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow i {
     line-height: 40px;
@@ -3555,6 +3645,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 227, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-active button.slick-arrow i {
     line-height: 40px;
@@ -3578,6 +3669,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1360px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 3%;
@@ -3585,6 +3677,7 @@ hr {
 }
 
 @media only screen and (min-width: 1361px) and (max-width: 1500px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 7%;
@@ -3592,6 +3685,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1360px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 3%;
@@ -3599,6 +3693,7 @@ hr {
 }
 
 @media only screen and (min-width: 1501px) and (max-width: 1600px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 10%;
@@ -3606,6 +3701,7 @@ hr {
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 12%;
@@ -3613,6 +3709,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 4%;
@@ -3620,6 +3717,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 4%;
@@ -3627,6 +3725,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 3%;
@@ -3634,6 +3733,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer {
     margin-left: 3%;
@@ -3656,6 +3756,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 290, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption {
     width: 50%;
@@ -3663,6 +3764,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 290, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption {
     display: none;
@@ -3685,6 +3787,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 316, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption:nth-child(4) {
     display: none;
@@ -3692,6 +3795,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 316, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption:nth-child(4) {
     display: none;
@@ -3699,6 +3803,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 324, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption:nth-child(3) {
     display: none;
@@ -3729,6 +3834,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption .caption p {
     font-size: 15px;
@@ -3736,6 +3842,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption .caption p {
     font-size: 15px;
@@ -3743,6 +3850,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption .caption p {
     font-size: 15px;
@@ -3764,6 +3872,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-caption p {
     padding-right: 20px;
@@ -3771,6 +3880,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-caption p {
     padding-right: 0px;
@@ -3778,6 +3888,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-caption p {
     padding-right: 0px;
@@ -3798,6 +3909,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 29, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-img .about-font-img img {
     width: 100%;
@@ -3813,6 +3925,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 42, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-img .about-back-img img {
     width: 90%;
@@ -3820,6 +3933,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 36, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-img .about-back-img {
     position: unset;
@@ -3827,6 +3941,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 36, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-img .about-back-img {
     position: unset;
@@ -3834,6 +3949,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 36, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-img .about-back-img {
     position: unset;
@@ -3841,6 +3957,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 60, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-caption {
     margin-bottom: 35px;
@@ -3848,6 +3965,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 67, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .bg-height.pb-160 {
     padding-bottom: 100px;
@@ -3855,6 +3973,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
   .services-area {
     padding-top: 100px;
@@ -3863,6 +3982,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
   .services-area {
     padding-top: 70px;
@@ -3871,6 +3991,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
   .services-area {
     padding-top: 70px;
@@ -3929,7 +4050,7 @@ hr {
 }
 
 /* line 52, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
-.services-area .single-cat .cat-cap h5 > a {
+.services-area .single-cat .cat-cap h5>a {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 21px;
@@ -3942,28 +4063,31 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 52, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
-  .services-area .single-cat .cat-cap h5 > a {
+  .services-area .single-cat .cat-cap h5>a {
     font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 52, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
-  .services-area .single-cat .cat-cap h5 > a {
+  .services-area .single-cat .cat-cap h5>a {
     font-size: 19px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 52, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
-  .services-area .single-cat .cat-cap h5 > a {
+  .services-area .single-cat .cat-cap h5>a {
     font-size: 19px;
   }
 }
 
 /* line 67, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
-.services-area .single-cat .cat-cap h5 > a:Hover {
+.services-area .single-cat .cat-cap h5>a:Hover {
   color: #3589f1;
 }
 
@@ -3980,6 +4104,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 72, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
   .services-area .single-cat .cat-cap p {
     font-size: 15px;
@@ -4026,6 +4151,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 16, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .support-location-img .support-img-cap {
     bottom: 103px;
@@ -4043,6 +4169,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 24, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .support-location-img .support-img-cap span {
     padding: 6px 40px;
@@ -4057,6 +4184,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 40, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .right-caption {
     right: -25px;
@@ -4064,6 +4192,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 40, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .right-caption {
     right: 0px;
@@ -4071,6 +4200,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 40, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .right-caption {
     right: 0px;
@@ -4078,6 +4208,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 40, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .right-caption {
     right: 0px;
@@ -4091,6 +4222,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 56, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .right-caption .support-caption p {
     padding-right: 0px;
@@ -4098,6 +4230,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 56, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .right-caption .support-caption p {
     padding-right: 0px;
@@ -4105,6 +4238,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 56, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
   .support-company-area .right-caption .support-caption p {
     padding-right: 0px;
@@ -4154,13 +4288,13 @@ hr {
 }
 
 /* line 108, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
-.select-suport-items .single-items:hover input ~ .checkmark {
+.select-suport-items .single-items:hover input~.checkmark {
   background-color: #fff;
   border: 2px solid #d0d0d0;
 }
 
 /* line 112, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
-.select-suport-items .single-items input:checked ~ .checkmark {
+.select-suport-items .single-items input:checked~.checkmark {
   background-color: #014b85;
   border: 2px solid transparent;
 }
@@ -4173,7 +4307,7 @@ hr {
 }
 
 /* line 121, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */
-.select-suport-items .single-items input:checked ~ .checkmark:after {
+.select-suport-items .single-items input:checked~.checkmark:after {
   display: block;
 }
 
@@ -4192,6 +4326,7 @@ hr {
 
 /*End check_box_style */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area {
     padding-top: 100px;
@@ -4200,6 +4335,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area {
     padding-top: 70px;
@@ -4208,6 +4344,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area {
     padding-top: 70px;
@@ -4228,6 +4365,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 21, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .select-form {
     width: 100%;
@@ -4235,6 +4373,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 21, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .select-form {
     width: 50%;
@@ -4255,6 +4394,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 29, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .select-form .nice-select {
     margin-bottom: 20px;
@@ -4263,6 +4403,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 29, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .select-form .nice-select {
     margin-bottom: 20px;
@@ -4305,23 +4446,50 @@ hr {
   transform: translateY(-50%);
 }
 
+.application-area form.search-box .input-form-2::before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 60px;
+  background: #e0e4f8;
+  right: 2px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 63, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .select-form .nice-select::before {
+    top: 38%;
+  }
+
+  .application-area form.search-box .input-form-2::before {
     top: 38%;
   }
 }
 
 @media (max-width: 575px) {
+
   /* line 63, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .select-form .nice-select::before {
+    display: none;
+  }
+
+  .application-area form.search-box .input-form-2::before {
     display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 63, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .select-form .nice-select::before {
+    background: unset;
+  }
+
+  .application-area form.search-box .input-form-2::before {
     background: unset;
   }
 }
@@ -4334,6 +4502,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 86, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .input-form {
     width: 50%;
@@ -4341,6 +4510,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 86, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .input-form {
     width: 100%;
@@ -4349,7 +4519,7 @@ hr {
 
 /* line 96, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
 .application-area form.search-box .input-form input {
-  height: 60px;
+  height: 70px;
   width: 100%;
   color: #777777;
   font-size: 18px;
@@ -4360,6 +4530,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 96, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .input-form input {
     margin-bottom: 20px;
@@ -4367,6 +4538,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 96, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .input-form input {
     padding: 9px 5px 9px 22px;
@@ -4380,6 +4552,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 112, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .input-form input::placeholder {
     font-size: 13px;
@@ -4393,6 +4566,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 121, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .search-form {
     width: 50%;
@@ -4400,6 +4574,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 121, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_application.scss */
   .application-area form.search-box .search-form {
     width: 100%;
@@ -4410,7 +4585,23 @@ hr {
 .application-area form.search-box .search-form a {
   border: 5px solid #fff;
   width: 100%;
-  height: 60px;
+  height: 70px;
+  background: #3589f1;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 15px;
+  border-radius: 0px;
+  text-transform: uppercase;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.application-area form.search-box .search-form button {
+  border: 5px solid #fff;
+  width: 100%;
+  height: 70px;
   background: #3589f1;
   line-height: 1;
   text-align: center;
@@ -4533,6 +4724,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap img {
     margin-bottom: 30px;
@@ -4540,6 +4732,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap img {
     margin-bottom: 30px;
@@ -4557,6 +4750,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 15, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 20px;
@@ -4564,6 +4758,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 15, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 20px;
@@ -4571,6 +4766,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 15, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 23px;
@@ -4578,6 +4774,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 15, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     font-size: 18px;
@@ -4585,6 +4782,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 15, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     margin-bottom: 30px;
@@ -4592,6 +4790,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 15, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .testimonial-area .testimonial-caption .testimonial-top-cap p {
     margin-bottom: 30px;
@@ -4645,6 +4844,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 66, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .h1-testimonial-active button.slick-arrow {
     left: -45px;
@@ -4652,6 +4852,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 66, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .h1-testimonial-active button.slick-arrow {
     left: -45px;
@@ -4665,6 +4866,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 97, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .h1-testimonial-active button.slick-next {
     right: -45px;
@@ -4677,6 +4879,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 104, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .h1-testimonial-active:hover button.slick-prev {
     left: -35px;
@@ -4689,6 +4892,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 110, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_testimonial.scss */
   .h1-testimonial-active:hover button.slick-next {
     right: -37px;
@@ -4733,6 +4937,7 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
   /* line 9, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 8px;
@@ -4740,6 +4945,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 9, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 0px;
@@ -4747,6 +4953,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 9, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 0px;
@@ -4754,6 +4961,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 9, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 0px;
@@ -4761,6 +4969,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 9, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 0px;
@@ -4817,6 +5026,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 71, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-social {
     float: left;
@@ -4825,6 +5035,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 71, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-social {
     float: left;
@@ -4833,6 +5044,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 71, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
   .footer-area .footer-social {
     float: left;
@@ -4909,6 +5121,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
   .apply-area {
     padding-top: 100px;
@@ -4917,6 +5130,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
   .apply-area {
     padding-top: 70px;
@@ -4925,6 +5139,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 1, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
   .apply-area {
     padding-top: 70px;
@@ -4968,6 +5183,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 33, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
   .apply-area .apply-wrapper .single-form .nice-select {
     margin-bottom: 20px;
@@ -4976,6 +5192,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 33, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
   .apply-area .apply-wrapper .single-form .nice-select {
     margin-bottom: 20px;
@@ -5017,6 +5234,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 75, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
   .apply-area .apply-wrapper .single-form .select-radio6 .radio label {
     font-size: 15px;
@@ -5031,7 +5249,7 @@ hr {
 }
 
 /* line 87, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
-.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"] + .radio-label:before {
+.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]+.radio-label:before {
   content: '';
   background: #f4f4f4;
   border-radius: 100%;
@@ -5049,30 +5267,31 @@ hr {
 }
 
 /* line 106, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
-.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]:checked + .radio-label:before {
+.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]:checked+.radio-label:before {
   background-color: #ff872d;
   box-shadow: inset 0 0 0 4px #f4f4f4;
 }
 
 /* line 114, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
-.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]:focus + .radio-label:before {
+.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]:focus+.radio-label:before {
   outline: none;
   border-color: #ff872d;
 }
 
 /* line 122, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
-.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]:disabled + .radio-label:before {
+.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]:disabled+.radio-label:before {
   box-shadow: inset 0 0 0 4px #f4f4f4;
   border-color: #b4b4b4;
   background: #b4b4b4;
 }
 
 /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_apply.scss */
-.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"] + .radio-label:empty:before {
+.apply-area .apply-wrapper .single-form .select-radio6 .radio input[type="radio"]+.radio-label:empty:before {
   margin-right: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area {
     padding-bottom: 70px;
@@ -5080,6 +5299,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area {
     padding-bottom: 0px;
@@ -5087,6 +5307,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 3, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area {
     padding-bottom: 0px;
@@ -5116,6 +5337,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 23, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions {
     padding: 15px 11px 0px 10px;
@@ -5123,6 +5345,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 23, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions {
     padding: 26px 0px 7px 0px;
@@ -5130,6 +5353,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 23, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions {
     padding: 26px 0px 7px 0px;
@@ -5137,6 +5361,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 23, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions {
     padding: 26px 0px 7px 0px;
@@ -5172,6 +5397,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   /* line 46, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions h2 a {
     padding-right: 0px;
@@ -5179,6 +5405,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /* line 46, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions h2 a {
     padding-right: 0px;
@@ -5187,6 +5414,7 @@ hr {
 }
 
 @media (max-width: 575px) {
+
   /* line 46, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions h2 a {
     padding-right: 0px;
@@ -5195,6 +5423,7 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
   /* line 46, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .home-blog-area .single-blogs .blog-captions h2 a {
     padding-right: 0px;
@@ -5237,7 +5466,8 @@ hr {
 }
 
 /* line 111, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #3589f1 0%, #3589f1 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5324,10 +5554,12 @@ hr {
 }
 
 @media (max-width: 1199px) {
+
   /* line 171, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-blog .tag {
     margin-right: 8px;
   }
+
   /* line 195, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-blog .tag:after {
     display: none;
@@ -5340,6 +5572,7 @@ hr {
 }
 
 @media (max-width: 800px) {
+
   /* line 121, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-blog {
     margin-bottom: 30px;
@@ -5365,6 +5598,7 @@ hr {
 }
 
 @media (max-width: 1199px) {
+
   /* line 209, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-blog .single-blog-content {
     padding: 15px;
@@ -5382,6 +5616,7 @@ hr {
 }
 
 @media (max-width: 1199px) {
+
   /* line 240, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-blog h4 {
     transition: all 300ms linear 0s;
@@ -5389,6 +5624,7 @@ hr {
     padding-bottom: 14px;
     margin-bottom: 12px;
   }
+
   /* line 246, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-blog h4 a {
     font-size: 18px;
@@ -5415,6 +5651,7 @@ hr {
 }
 
 @media (min-width: 992px) {
+
   /* line 257, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .full_image.single-blog .single-blog-content {
     bottom: 100px;
@@ -5585,7 +5822,7 @@ hr {
 }
 
 /* line 455, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
-.causes_item .causes_bottom a + a {
+.causes_item .causes_bottom a+a {
   border-color: #eeeeee;
   background: #fff;
   font-size: 14px;
@@ -5650,7 +5887,7 @@ hr {
 }
 
 /* line 528, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
-.tags .tag_btn + .tag_btn {
+.tags .tag_btn+.tag_btn {
   margin-left: 2px;
 }
 
@@ -5662,6 +5899,7 @@ hr {
 }
 
 @media (min-width: 900px) {
+
   /* line 535, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .blog_categorie_area {
     padding-top: 80px;
@@ -5670,6 +5908,7 @@ hr {
 }
 
 @media (min-width: 1100px) {
+
   /* line 535, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .blog_categorie_area {
     padding-top: 120px;
@@ -5748,6 +5987,7 @@ hr {
 }
 
 @media (min-width: 768px) {
+
   /* line 626, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .blog_details {
     padding: 60px 30px 35px 35px;
@@ -5777,6 +6017,7 @@ hr {
 }
 
 @media (min-width: 768px) {
+
   /* line 646, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .blog_details h2 {
     font-size: 24px;
@@ -5840,6 +6081,7 @@ hr {
 }
 
 @media (min-width: 768px) {
+
   /* line 696, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date {
     bottom: -20px;
@@ -5858,6 +6100,7 @@ hr {
 }
 
 @media (min-width: 768px) {
+
   /* line 712, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date h3 {
     font-size: 30px;
@@ -5872,6 +6115,7 @@ hr {
 }
 
 @media (min-width: 768px) {
+
   /* line 724, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .blog_item_img .blog_item_date p {
     font-size: 18px;
@@ -6011,7 +6255,7 @@ hr {
 }
 
 /* line 874, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li + li {
+.blog_right_sidebar .post_category_widget .cat-list li+li {
   padding-top: 15px;
 }
 
@@ -6043,7 +6287,7 @@ hr {
 }
 
 /* line 920, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item + .post_item {
+.blog_right_sidebar .popular_post_widget .post_item+.post_item {
   margin-top: 20px;
 }
 
@@ -6188,6 +6432,7 @@ hr {
 }
 
 @media (min-width: 768px) {
+
   /* line 1187, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-post-area .quote-wrapper {
     padding: 30px;
@@ -6202,6 +6447,7 @@ hr {
 }
 
 @media (min-width: 768px) {
+
   /* line 1201, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-post-area .quotes {
     padding: 25px 25px 25px 30px;
@@ -6285,6 +6531,7 @@ hr {
 }
 
 @media (max-width: 600px) {
+
   /* line 1282, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-post-area .blog-author {
     padding: 20px 8px;
@@ -6300,6 +6547,7 @@ hr {
 }
 
 @media (max-width: 600px) {
+
   /* line 1291, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-post-area .blog-author img {
     margin-right: 15px;
@@ -6389,6 +6637,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 1340, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
@@ -6437,6 +6686,7 @@ hr {
 }
 
 @media (max-width: 991px) {
+
   /* line 1407, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .single-post-area .sidebar-widgets {
     padding-bottom: 0px;
@@ -6452,6 +6702,7 @@ hr {
 }
 
 @media (max-width: 414px) {
+
   /* line 1414, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .comments-area {
     padding: 50px 8px;
@@ -6486,14 +6737,17 @@ hr {
 }
 
 @media (max-width: 413px) {
+
   /* line 1454, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment h5 {
     font-size: 12px;
   }
+
   /* line 1458, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment .date {
     font-size: 11px;
   }
+
   /* line 1462, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .comments-area .comment-list .single-comment .comment {
     font-size: 10px;
@@ -6562,6 +6816,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 1528, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .comment-form .name {
     padding-right: 0px;
@@ -6575,6 +6830,7 @@ hr {
 }
 
 @media (max-width: 991px) {
+
   /* line 1537, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
   .comment-form .email {
     padding-left: 0px;
@@ -6665,7 +6921,8 @@ hr {
 }
 
 /* line 16, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -6787,6 +7044,7 @@ hr {
 }
 
 @media (max-width: 991px) {
+
   /* line 133, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_contact.scss */
   .contact-section {
     padding: 70px 0 40px;
@@ -6794,6 +7052,7 @@ hr {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
   /* line 133, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_contact.scss */
   .contact-section {
     padding: 80px 0 50px;
@@ -6838,6 +7097,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 10, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .bradcam_area {
     padding: 150px 0;
@@ -6845,6 +7105,7 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 10, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .bradcam_area {
     padding: 150px 0;
@@ -6862,6 +7123,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 22, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 30px;
@@ -6869,6 +7131,7 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* line 22, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 40px;
@@ -6885,6 +7148,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 38, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .popup_box {
     width: 320px;
@@ -6893,6 +7157,7 @@ hr {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
   /* line 38, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .popup_box {
     width: 420px !important;
@@ -6999,6 +7264,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   #test-form {
     top: 0;
@@ -7023,6 +7289,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 151, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   #test-form button.mfp-close {
     display: block !important;
@@ -7074,6 +7341,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 208, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .gj-picker.gj-picker-md.timepicker {
     width: 310px;
@@ -7082,6 +7350,7 @@ hr {
 }
 
 @media (max-width: 767px) {
+
   /* line 215, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_bradcam.scss */
   .gj-picker.gj-picker-md.datepicker.gj-unselectable {
     width: 320px;
@@ -7782,7 +8051,7 @@ del {
 }
 
 /* line 587, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.default-switch input + label {
+.default-switch input+label {
   position: absolute;
   top: 1px;
   left: 1px;
@@ -7799,7 +8068,7 @@ del {
 }
 
 /* line 600, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.default-switch input:checked + label {
+.default-switch input:checked+label {
   left: 19px;
 }
 
@@ -7826,7 +8095,7 @@ del {
 }
 
 /* line 623, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-switch input + label {
+.primary-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7837,7 +8106,7 @@ del {
 }
 
 /* line 631, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-switch input + label:before {
+.primary-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7856,7 +8125,7 @@ del {
 }
 
 /* line 645, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-switch input + label:after {
+.primary-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -7874,12 +8143,12 @@ del {
 }
 
 /* line 661, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-switch input:checked + label:after {
+.primary-switch input:checked+label:after {
   left: 19px;
 }
 
 /* line 664, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-switch input:checked + label:before {
+.primary-switch input:checked+label:before {
   background: #1f2b7b;
 }
 
@@ -7906,7 +8175,7 @@ del {
 }
 
 /* line 688, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-switch input + label {
+.confirm-switch input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -7917,7 +8186,7 @@ del {
 }
 
 /* line 696, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-switch input + label:before {
+.confirm-switch input+label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7936,7 +8205,7 @@ del {
 }
 
 /* line 710, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-switch input + label:after {
+.confirm-switch input+label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -7954,12 +8223,12 @@ del {
 }
 
 /* line 726, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-switch input:checked + label:after {
+.confirm-switch input:checked+label:after {
   left: 19px;
 }
 
 /* line 729, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-switch input:checked + label:before {
+.confirm-switch input:checked+label:before {
   background: #4cd3e3;
 }
 
@@ -7986,7 +8255,7 @@ del {
 }
 
 /* line 753, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-checkbox input + label {
+.primary-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8000,7 +8269,7 @@ del {
 }
 
 /* line 766, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-checkbox input:checked + label {
+.primary-checkbox input:checked+label {
   background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -8028,7 +8297,7 @@ del {
 }
 
 /* line 790, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-checkbox input + label {
+.confirm-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8042,7 +8311,7 @@ del {
 }
 
 /* line 803, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-checkbox input:checked + label {
+.confirm-checkbox input:checked+label {
   background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -8070,7 +8339,7 @@ del {
 }
 
 /* line 827, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.disabled-checkbox input + label {
+.disabled-checkbox input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8090,7 +8359,7 @@ del {
 }
 
 /* line 844, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.disabled-checkbox input:checked + label {
+.disabled-checkbox input:checked+label {
   background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
@@ -8118,7 +8387,7 @@ del {
 }
 
 /* line 868, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-radio input + label {
+.primary-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8132,7 +8401,7 @@ del {
 }
 
 /* line 881, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.primary-radio input:checked + label {
+.primary-radio input:checked+label {
   background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8160,7 +8429,7 @@ del {
 }
 
 /* line 905, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-radio input + label {
+.confirm-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8174,7 +8443,7 @@ del {
 }
 
 /* line 918, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.confirm-radio input:checked + label {
+.confirm-radio input:checked+label {
   background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8202,7 +8471,7 @@ del {
 }
 
 /* line 942, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.disabled-radio input + label {
+.disabled-radio input+label {
   position: absolute;
   left: 0;
   top: 0;
@@ -8222,7 +8491,7 @@ del {
 }
 
 /* line 959, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_elements.scss */
-.disabled-radio input:checked + label {
+.disabled-radio input:checked+label {
   background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
@@ -8378,3 +8647,97 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.input-form label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #999;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.input-form input:focus~label,
+.input-form input:not(:placeholder-shown)~label {
+  top: -2px;
+  left: 8px;
+  font-size: 12px;
+  color: #007bff;
+  background: white;
+  padding: 4px;
+}
+
+/* Base style override */
+.custom-pills .nav-link {
+  /* border-radius: 25px; */
+  padding: 0.5rem 3.25rem;
+  transition: all 0.3s ease;
+  color: #555;
+  background-color: #f8f9fa;
+  border: none;
+}
+
+/* Active tab */
+.custom-pills .nav-link.active {
+  color: #fff;
+  background-color: #093c72;
+  box-shadow: 0 4px 10px rgba(8, 46, 88, 0.2);
+}
+
+/* Hover effect */
+.custom-pills .nav-link:hover {
+  background-color: #74a6d886;
+  color: #042952;
+}
+
+/* Add spacing for pills */
+.custom-pills .nav-item {
+  margin-right: 0.5rem;
+}
+
+.light-br::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0px;
+  background: #3589f1;
+  height: 3px;
+  width: 100%;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  z-index: 2;
+}
+
+.partner-card {
+
+  flex: 0 0 calc(100% / 7);
+  max-width: calc(100% / 7);
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 5px;
+  border: .5px solid #cccffa;
+  border-left: 5px solid #004a8f;
+  background-color: #f8f9fa;
+  text-decoration: none;
+  min-width: 150px;
+  transition: box-shadow 0.3s;
+
+}
+
+.partner-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.partner-card div {
+  font-size: 12px;
+}

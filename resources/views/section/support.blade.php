@@ -6,7 +6,7 @@
                      <div class="support-location-img mb-50">
                          <img src="assets/img/gallery/single2.jpg" alt="">
                          <div class="support-img-cap">
-                             <span>Since 1992</span>
+                             <span>Since 2000</span>
                          </div>
                      </div>
                  </div>

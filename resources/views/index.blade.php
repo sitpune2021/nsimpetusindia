@@ -10,12 +10,12 @@
 
 
 
-     {{-- @include('section.application') --}}
+     @include('section.partners')
 
      {{-- @include('section.teams') --}}
 
      {{-- @include('section.testimonial') --}}
 
-     @include('section.financialProductsAndServices')
+     @include('section.financialProductsAndServices', ['pd' => false])
 
  @endsection
