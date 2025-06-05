@@ -39,27 +39,27 @@
                                     <h4>services</h4>
                                     <ul>
                                         <li><a href="#">Personal Loan</a>
-                                            <ul>
-                                                <li><a href="#">Business Loan (TL/OD)</a></li>
-                                                <li><a href="#">Professional Loan (Doctor/CA/CMA)</a></li>
-                                                <li><a href="#">Home Loan</a></li>
-                                                <li><a href="#">Mortgage Loan</a></li>
-                                                <li><a href="#">Car Loan</a></li>
-                                                <li><a href="#">Project Loan</a></li>
-                                                <li><a href="#">Private Funding</a></li>
-                                                <li><a href="#">Credit Card</a></li>
+                                            <ul class="pl-3">
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Business Loan (TL/OD)</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Professional Loan (Doctor/CA/CMA)</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Home Loan</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Mortgage Loan</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Car Loan</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Project Loan</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Private Funding</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Credit Card</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Bill Discounting</a>
-                                             <ul>
-                                                <li><a href="#">⁠Bank Guarantee</a></li>
-                                                <li><a href="#">Letter of Credit</a></li>
+                                            <ul class="pl-3">
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">⁠Bank Guarantee</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Letter of Credit</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">LCBD</a>
-                                            <ul>
-                                                <li><a href="#">VaR (Foreign Hedging Limit)</a></li>
-                                                <li><a href="#">Working Capital</a></li>
+                                            <ul class="pl-3">
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">VaR (Foreign Hedging Limit)</a></li>
+                                                <li class="ml-2 m-0" style="font-size: 14px;"><a href="#">Working Capital</a></li>
                                             </ul>
                                         </li>
                                     </ul>
