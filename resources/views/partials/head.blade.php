@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     @include('partials.seo')
     <link rel="manifest" href="site.html">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/NS_impetus.png">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">

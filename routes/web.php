@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -73,15 +75,20 @@ Route::post('/contact/send', function(Request $request)
 
         // Compose SMS message or do whatever you want here
         $phoneNumber = '8329982873'; // you need to get or assign the number
-
+ 
         $subject = $data['subject'] ?? 'No Subject';
 
         // Compose a clean SMS message
-        $smsMessage = "📩 New Contact Message\n";
-        $smsMessage .= "👤 Name: {$data['name']}\n";
-        $smsMessage .= "📧 Email: {$data['email']}\n";
-        $smsMessage .= "📝 Subject: {$subject}\n";
-        $smsMessage .= "💬 Message: {$data['message']}";
+        $smsMessage = "New Contact Message\n";
+        $smsMessage .= "Name: {$data['name']}\n";
+        $smsMessage .= "Email: {$data['email']}\n";
+        $smsMessage .= "Subject: {$subject}\n";
+        $smsMessage .= "Message: {$data['message']}";
+
+           Mail::raw($smsMessage, function ($message) use ($subject) {
+        $message->to('aj2740@gmail.com')
+                ->subject($subject);
+    });
 
         // Prepare SMS API data (example)
         $postData = [

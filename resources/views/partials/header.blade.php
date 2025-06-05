@@ -5,7 +5,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="" style="width: 100px;"></a>
+                                <a href="{{ url('/') }}"><img src="assets/img/logo/NS_impetus.png" alt="" style="width: 100px;"></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-10">

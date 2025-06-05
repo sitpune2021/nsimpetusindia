@@ -9,8 +9,8 @@
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
                                     <div class="footer-logo">
-                                        <a href="{{ url('/') }}"><img src="assets/img/logo/logo2_footer.jpg"
-                                                alt="" style="width: 105px; height:28px"></a>
+                                        <a href="{{ url('/') }}"><img src="assets/img/logo/NS_impetus.png"
+                                                alt="" style="width: 105px; height:30px"></a>
                                     </div>
                                     <div class="footer-pera">
                                         <p>NS Impetus  Services, With its vision for more than 25 years and counting, the company has achieved significant milestones. NS Impetus  aims to maintain its growth trajectory.</p>
