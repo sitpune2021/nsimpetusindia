@@ -90,7 +90,7 @@
                                              <span class="flaticon-work"></span>
                                          </div>
                                          <div class="cat-cap">
-                                             <h5><a href="{{ url('services') }}">Professional loans (DR.,CAs,CMAs) Interest Rate</a></h5>
+                                             <h5><a href="{{ url('services') }}">Professional Loan For ( Doctor /CA/CMA)</a></h5>
                                              <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore
                                                  et dolore</p>
                                          </div>
