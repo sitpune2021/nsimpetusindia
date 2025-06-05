@@ -74,7 +74,14 @@ Route::post('/contact/send', function(Request $request)
         // Compose SMS message or do whatever you want here
         $phoneNumber = '8329982873'; // you need to get or assign the number
 
-        $smsMessage = "New Contact Message from {$data['name']}, Email: {$data['email']}, Subject: {$data['subject']}, Message: {$data['message']}";
+        $subject = $data['subject'] ?? 'No Subject';
+
+        // Compose a clean SMS message
+        $smsMessage = "📩 New Contact Message\n";
+        $smsMessage .= "👤 Name: {$data['name']}\n";
+        $smsMessage .= "📧 Email: {$data['email']}\n";
+        $smsMessage .= "📝 Subject: {$subject}\n";
+        $smsMessage .= "💬 Message: {$data['message']}";
 
         // Prepare SMS API data (example)
         $postData = [
@@ -90,6 +97,10 @@ Route::post('/contact/send', function(Request $request)
         $response = Http::asForm()->post('http://redirect.ds3.in/submitsms.jsp', $postData);
 
         // You can redirect back with success message
-        return back()->with('success', 'Message sent successfully! SMS status: ' . $response->body());
+        // return back()->with('success', 'Message sent successfully! SMS status: ' . $response->body());
+        return response()->json([
+            'message' => 'Message sent successfully! SMS status: ' . $response->body(),
+            'status' => 'success',
+        ], 200);
     })->name('contact.send');
 

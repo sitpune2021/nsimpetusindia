@@ -28,6 +28,7 @@
              <div class="row">
                  <div class="col-12">
                      <h2 class="contact-title">Get in Touch</h2>
+                    <h6 id="success" class="text-center text-success" style="display: none;"></h6>
                  </div>
                  <div class="col-lg-8">
                      <form class="form-contact contact_form" action="{{ route('contact.send') }}" method="POST"
