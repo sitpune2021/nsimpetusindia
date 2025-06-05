@@ -9,15 +9,21 @@
                              <span>About Our Company</span>
                              <h2>Empowering Financial Prosperity</h2>
                          </div>
-                         <p>NS Impetus  is a renowned Direct Sales Agent (DSA) based in India, operating under Impetus  Adcon Pvt
-                             Ltd & Impetus  Corporate Pvt Ltd. The company has headquartered in Ahmedabad and has established
-                             itself as a trustworthy player in the industry. NS Impetus  has expanded its operations throughout
-                             Pan Maharashtra, Gujrat, Madhya Pradesh , Uttar Pradesh , Delhi , Haryana, Bengaluru , Kolkata , Tamil nadu,
+                         <p>NS Impetus is a renowned Direct Sales Agent (DSA) based in India, We are the Corporate
+                             Channel Partners for Secured and Unsecured Loans. We deal with All the Banks and NBFC's on
+                             Pan India level. Our Strength are given Below-
+                             -All Banks and NBFC's tie-ups in Pan India level. The company has headquartered in pune and
+                             has established
+                             itself as a trustworthy player in the industry. NS Impetus has expanded its operations
+                             throughout
+                             Pan Maharashtra, Gujrat, Madhya Pradesh , Uttar Pradesh , Delhi , Haryana, Bengaluru ,
+                             Kolkata , Tamil nadu, etc
                              creating a robust presence in the region</p>
-                         <p>Since its establishment in 2000, NS Impetus  has maintained its reputation for delivering
+                         <p>Since its establishment in 2000, NS Impetus has maintained its reputation for delivering
                              high-quality services, making it a reliable and trustworthy DSA. The management team,
-                             consisting of Shivam Dwivedi, Nitesha Pandey and Nikita Dwivedi has diverse educational backgrounds and extensive experience in the field.</p>
-                             <a href="apply.html" class="btn">Apply for Loan</a>
+                             consisting of Shivam Dwivedi, Nitesha Pandey and Nikita Dwivedi has diverse educational
+                             backgrounds and extensive experience in the field.</p>
+                         <a href="apply.html" class="btn">Apply for Loan</a>
                      </div>
                  </div>
                  <div class="col-lg-6 col-md-12">

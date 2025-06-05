@@ -1,5 +1,3 @@
-     
-     
      <!-- Services Area Start -->
      <div class="services-area {{ $bg_image ? 'pt-100 pb-100' : 'section-padding30' }}"
          @if ($bg_image) data-background="assets/img/gallery/section_bg02.jpg" @endif>
@@ -24,8 +22,8 @@
                          </li>
                          <li class="nav-item" role="presentation">
                              <button class="nav-link" id="pills-home-tab" data-toggle="pill" data-target="#pills-home"
-                                 type="button" role="tab" aria-controls="pills-home"
-                                 aria-selected="false">Secured Loans
+                                 type="button" role="tab" aria-controls="pills-home" aria-selected="false">Secured
+                                 Loans
                              </button>
                          </li>
                      </ul>
@@ -85,42 +83,21 @@
                                          </div>
                                      </div>
                                  </div>
-                                 <div class="col-lg-3 col-md-6 col-sm-6">
-                                     <div class="single-cat text-center mb-50">
-                                         <div class="cat-icon">
-                                             <span class="flaticon-loan"></span>
-                                         </div>
-                                         <div class="cat-cap">
-                                             <h5><a href="{{ url('services') }}">Home Loan Interest Rate</a></h5>
-                                             <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore
-                                                 et dolore</p>
-                                         </div>
-                                     </div>
-                                 </div>
+
                                  <div class="col-lg-3 col-md-6 col-sm-6">
                                      <div class="single-cat text-center mb-50">
                                          <div class="cat-icon">
                                              <span class="flaticon-work"></span>
                                          </div>
                                          <div class="cat-cap">
-                                             <h5><a href="{{ url('services') }}">Personal Loan Interest Rate</a></h5>
+                                             <h5><a href="{{ url('services') }}">profeshional Loan (for dr
+                                                     CA/CMA)Interest Rate</a></h5>
                                              <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore
                                                  et dolore</p>
                                          </div>
                                      </div>
                                  </div>
-                                   <div class="col-lg-3 col-md-6 col-sm-6">
-                                     <div class="single-cat text-center mb-50">
-                                         <div class="cat-icon">
-                                             <span class="flaticon-loan-1"></span>
-                                         </div>
-                                         <div class="cat-cap">
-                                             <h5><a href="{{ url('services') }}">Loan Against Property</a></h5>
-                                             <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore
-                                                 et dolore</p>
-                                         </div>
-                                     </div>
-                                 </div>
+
 
 
                              </div>
@@ -155,13 +132,37 @@
                                          </div>
                                      </div>
                                  </div>
-                                  <div class="col-lg-3 col-md-6 col-sm-6">
+                                 <div class="col-lg-3 col-md-6 col-sm-6">
                                      <div class="single-cat text-center mb-50">
                                          <div class="cat-icon">
                                              <span class="flaticon-work"></span>
                                          </div>
                                          <div class="cat-cap">
                                              <h5><a href="{{ url('services') }}">Home Loan</a></h5>
+                                             <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore
+                                                 et dolore</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-lg-3 col-md-6 col-sm-6">
+                                     <div class="single-cat text-center mb-50">
+                                         <div class="cat-icon">
+                                             <span class="flaticon-loan"></span>
+                                         </div>
+                                         <div class="cat-cap">
+                                             <h5><a href="{{ url('services') }}">Home Loan Lowest Interest Rate</a></h5>
+                                             <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore
+                                                 et dolore</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="col-lg-3 col-md-6 col-sm-6">
+                                     <div class="single-cat text-center mb-50">
+                                         <div class="cat-icon">
+                                             <span class="flaticon-loan-1"></span>
+                                         </div>
+                                         <div class="cat-cap">
+                                             <h5><a href="{{ url('services') }}">Loan Against Property</a></h5>
                                              <p>Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore
                                                  et dolore</p>
                                          </div>

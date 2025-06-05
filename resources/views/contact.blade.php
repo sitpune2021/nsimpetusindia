@@ -20,7 +20,7 @@
              <div class="d-none d-sm-block mb-5 pb-4">
                  <div style="height: 480px; position: relative; overflow: hidden;">
                      <iframe
-                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4068.2686135511!2d73.89567177549877!3d18.546822182551914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c178e2840ced%3A0x5f0316603763bf06!2sImpetus%20Technologies%20India%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1748943584300!5m2!1sen!2sin"
+                         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3782.223154448091!2d73.91304227519268!3d18.563975482537938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDMzJzUwLjMiTiA3M8KwNTQnNTYuMiJF!5e0!3m2!1sen!2sin!4v1749118451474!5m2!1sen!2sin"
                          width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy"
                          referrerpolicy="no-referrer-when-downgrade"></iframe>
                  </div>
@@ -28,7 +28,7 @@
              <div class="row">
                  <div class="col-12">
                      <h2 class="contact-title">Get in Touch</h2>
-                    <h6 id="success" class="text-center text-success" style="display: none;"></h6>
+                     <h6 id="success" class="text-center text-success" style="display: none;"></h6>
                  </div>
                  <div class="col-lg-8">
                      <form class="form-contact contact_form" action="{{ route('contact.send') }}" method="POST"

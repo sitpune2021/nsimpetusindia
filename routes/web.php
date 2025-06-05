@@ -74,7 +74,7 @@ Route::post('/contact/send', function(Request $request)
         ]);
 
         // Compose SMS message or do whatever you want here
-        $phoneNumber = '8329982873'; // you need to get or assign the number
+        $phoneNumber = '9770033202'; // you need to get or assign the number
  
         $subject = $data['subject'] ?? 'No Subject';
 
@@ -86,7 +86,7 @@ Route::post('/contact/send', function(Request $request)
         $smsMessage .= "Message: {$data['message']}";
 
            Mail::raw($smsMessage, function ($message) use ($subject) {
-        $message->to('aj2740@gmail.com')
+        $message->to('custumersupport@nsimpetusindia.in')
                 ->subject($subject);
     });
 
